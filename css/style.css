@@ -7,7 +7,9 @@
 
 /* general rules */
 body{
-    font-family: DM sans, Sigmar, sans-serif;
+    font-family: "DM sans", "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: rgb(25,29,123);
     color: rgb(255, 255, 255);
 }
@@ -15,4 +17,30 @@ body{
 img{
     max-width: 100%;
     display: block;
+}
+
+.container{
+    padding: 30px;
+}
+
+.jumbo{
+    text-align: center;
+}
+
+section{
+    padding: 16px 0;
+}
+
+button{
+    display: block;
+    margin: 10px auto;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.in-browser{
+    background-color: rgb(88 101 242);
+    color: rgb(255, 255, 255);
 }
