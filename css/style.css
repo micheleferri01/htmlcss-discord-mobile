@@ -11,3 +11,8 @@ body{
     background-color: rgb(25,29,123);
     color: rgb(255, 255, 255);
 }
+
+img{
+    max-width: 100%;
+    display: block;
+}
