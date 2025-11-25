@@ -34,7 +34,7 @@ section {
 button {
     display: block;
     margin: 16px auto;
-    padding: 8px 5px;
+    padding: 10px 5px;
     border: none;
     border-radius: 8px;
     width: 100%;
@@ -54,16 +54,20 @@ p {
     margin-top: 10px;
 }
 
-.images {
+/* .images {
     border-radius: 30px;
     margin-top: 16px;
-}
+} */
 
 .card {
     background-color: rgba(255, 255, 255, .3);
     padding: 30px 20px;
     border-radius: 30px;
     position: relative;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
 }
 
 .badge {
@@ -73,4 +77,10 @@ p {
     left: 50%;
     transform: translate(-50%, -60%);
 
+}
+
+.videos{
+    max-width: 100%;
+    border-radius: 30px;
+    margin-top: 16px;
 }
