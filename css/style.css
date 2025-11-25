@@ -1,46 +1,76 @@
 /* reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* general rules */
-body{
+body {
     font-family: "DM sans", "Sigmar", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: rgb(25,29,123);
+    background-color: rgb(25, 29, 123);
     color: rgb(255, 255, 255);
 }
 
-img{
+img {
     max-width: 100%;
     display: block;
 }
 
-.container{
+.container {
     padding: 30px;
 }
 
-.jumbo{
+.jumbo {
     text-align: center;
 }
 
-section{
-    padding: 16px 0;
+section {
+    padding: 30px 0;
 }
 
-button{
+button {
     display: block;
-    margin: 10px auto;
-    padding: 5px 5px;
+    margin: 16px auto;
+    padding: 8px 5px;
     border: none;
     border-radius: 8px;
     width: 100%;
 }
 
-.in-browser{
+button:hover{
+    cursor: pointer;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+}
+
+.in-browser {
     background-color: rgb(88 101 242);
     color: rgb(255, 255, 255);
+}
+
+p {
+    margin-top: 10px;
+}
+
+.images {
+    border-radius: 30px;
+    margin-top: 16px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, .3);
+    padding: 30px 20px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.badge {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -60%);
+
 }
