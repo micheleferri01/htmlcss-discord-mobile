@@ -1,0 +1,13 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general rules */
+body{
+    font-family: DM sans, Sigmar, sans-serif;
+    background-color: rgb(25,29,123);
+    color: rgb(255, 255, 255);
+}
